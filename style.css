@@ -1,16 +1,96 @@
 /* Type your code here */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+*{
+	text-align: left;
+}
+.first-box {
+	width: 60%;
+	margin: auto;
+	display: block;
+	justify-content: left ;
+	margin-right: 32.5em;
 
+  }
+  body {
+	background-image: url(./assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: right;
+	padding: 50px;
+  }
+  
+  table {
+	border-collapse: collapse;
+	font-weight: bolder;
+	background-color: white;
+	font-size: 18px;
+	font-weight: 600;
+	width:700px;
+	
+  }
+  tr {
+	border: solid;
+	border-color: gray;
+	border-width: 2px 0;
 
-/* change the font family and spacing as per your project font */
+  }
+  td {
+	padding: 10px 30px;
+	font-size: 15px;
+  }
+  .logopic {
+	display: flex;
+	margin-top: 2%;
+	margin-left: 80%;
+	height: 3rem;
+	width: 15rem;
+	justify-content: flex-end;
+  }
+  .heading {
+	text-shadow: 0px 5px 4px #939393;
+	font-size: 55px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-weight: 600;
+	text-align: left;
+  }
+  .teams {
+	  color: #6a6a6a;
+	  font-size: 25px;
+	  margin-top: 0px;
+	  font-weight: 600;
+	  margin-bottom: 30px;
+	  text-align: left;
+	}
+	a {
+	  text-decoration: none;
+	  color: #1aa3ff;
+	  font-size: 15px;
+	}
+	.status {
+	  color: gray;
+	  font-size: 15px;
+	}
+  
+	.right-align{
+	  width: 1%;
+	  text-align: right;
+	} 
+
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 60px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
-    
+	color: black;
+    margin-bottom: 1000px;
 }
